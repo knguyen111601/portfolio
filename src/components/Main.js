@@ -1,0 +1,15 @@
+import About from "./About"
+import Projects from "./Projects"
+
+// the component function
+const Main = (props) => {
+
+    //The Components Returned JSX
+    return <div className="Main">
+        <About />
+        <Projects />
+    </div>
+}
+
+// export the component
+export default Main
