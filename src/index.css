@@ -14,6 +14,17 @@ code {
     monospace;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e2234;
+}
+
+::-webkit-scrollbar-thumb {
+  background: tomato; 
+}
 
 .Header {
   background-color: #f26c4f;
