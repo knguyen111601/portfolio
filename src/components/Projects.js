@@ -8,7 +8,27 @@ const Projects = (props) => {
     <h1 className="ProjHead">Projects</h1>
     <div className="Projects" id="Projects">
     <div className="Proj1">
-            <h1>uWish<BsStars/></h1>
+            <h1>TINKER</h1>
+            <h6 style={{marginTop: "0", color: "white"}}>Dummy Login - USER: admin PASS: admin</h6>
+            <img src="https://i.imgur.com/cgq1mM3.png" alt="screenshot"/>
+            <div className="hashtags">
+                <div className="hash"><h1>#html</h1></div>
+                <div className="hash"><h1>#scss/sass</h1></div>
+                <div className="hash"><h1>#javascript</h1></div>
+                <div className="hash"><h1>#reactjs</h1></div>
+                <div className="hash"><h1>#masonite</h1></div>
+                <div className="hash"><h1>#python</h1></div>
+                <div className="hash"><h1>#postgres</h1></div>
+            </div>
+            <p>Tinker is an application that allows users to build a PC virtually. Tinker allows for users to create their own PCs and put them together from a list of parts as if they were actually shopping. Then, Tinker will automatically save it to their personal list and let them update or delete as they please. Tinker's frontend was made using REACTJs and the backend with Masonite and Python. Authentication was done through Masonite's user controller.</p>
+            <div className="gitandvisit">
+            <h3 className="git"><a target="_blank" rel="noreferrer" href="https://github.com/knguyen111601/penguin_project_4_backend">GitHub Repo</a></h3>
+            <h3 className="seeMore"><a className="button" target="_blank" rel="noreferrer" href="https://angry-galileo-823324.netlify.app/">See More</a></h3>
+            </div>
+        </div>
+
+        <div className="Proj1">
+        <h1>uWish<BsStars/></h1>
             <img src="https://i.imgur.com/i1vXnYC.png" alt="screenshot"/>
             <div className="hashtags">
                 <div className="hash"><h1>#html</h1></div>
