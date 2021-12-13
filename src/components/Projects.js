@@ -29,6 +29,7 @@ const Projects = (props) => {
 
         <div className="Proj1">
         <h1>uWish<BsStars/></h1>
+        <h6 style={{marginTop: "0", color: "white"}}>Dummy Login - USER: kenny PASS: kenny</h6>
             <img src="https://i.imgur.com/i1vXnYC.png" alt="screenshot"/>
             <div className="hashtags">
                 <div className="hash"><h1>#html</h1></div>
@@ -48,6 +49,7 @@ const Projects = (props) => {
 
         <div className="Proj1">
             <h1>Binge</h1>
+            <h6 style={{marginTop: "0", color: "white"}}>Dummy Login - USER: binge PASS: binge</h6>
             <img src="https://i.imgur.com/23NGhhA.jpg" alt="screenshot"/>
             <div className="hashtags">
                 <div className="hash"><h1>#html</h1></div>
