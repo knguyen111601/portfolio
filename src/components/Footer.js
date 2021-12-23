@@ -10,6 +10,7 @@ const Footer = (props) => {
         </div>
         <h1>Projects:</h1>
         <div class="projlinks">
+            <div><a target="_blank" rel="noreferrer" href="https://quizzical-lamarr-fb4b4b.netlify.app/"><img src="https://i.imgur.com/DsI8i3e.png" alt="Coder's Block"/></a></div>
             <div><a target="_blank" rel="noreferrer" href="https://angry-galileo-823324.netlify.app/"><img src="https://i.imgur.com/H9GwzBH.png" alt="TINKER"/></a></div>
             <div><a target="_blank" rel="noreferrer" href="https://kn-penguin-p2.herokuapp.com/"><img src="https://i.imgur.com/SoOkv8W.png" alt="binge"/></a></div>
             <div><a target="_blank" rel="noreferrer" href="https://penguin-react-express-project3.netlify.app/"><img src="https://i.imgur.com/QsKGS5E.png" alt="uWish"/></a></div>

@@ -7,6 +7,27 @@ const Projects = (props) => {
     return <div>
     <h1 className="ProjHead">Projects</h1>
     <div className="Projects" id="Projects">
+
+    <div className="Proj1">
+            <h1>Coder's Block</h1>
+            <h6 style={{marginTop: "0", color: "white"}}>Dummy Login - USER: admin PASS: admin</h6>
+            <img src="https://i.imgur.com/55cF0o3.png" alt="screenshot"/>
+            <div className="hashtags">
+                <div className="hash"><h1>#scss/sass</h1></div>
+                <div className="hash"><h1>#javascript</h1></div>
+                <div className="hash"><h1>#reactjs</h1></div>
+                <div className="hash"><h1>#ruby</h1></div>
+                <div className="hash"><h1>#rails</h1></div>
+                <div className="hash"><h1>#postgres</h1></div>
+            </div>
+            <p>Coder's Block is a blogging site where users can create an account and have blogs of their own. Blogs will build and format themselves depending on what the user decides to input. Coder's Block utilizes Ruby on Rails to develop has_many and belongs_to relationships between blogs and the content the user decides to input. Also, Coder's Block has responsive styling and advanced scripting for blog CRUD.</p>
+            <div className="gitandvisit">
+            <h3 className="git"><a target="_blank" rel="noreferrer" href="https://github.com/knguyen111601/blog_capstone_frontend">GitHub Repo</a></h3>
+            <h3 className="seeMore"><a className="button" target="_blank" rel="noreferrer" href="https://quizzical-lamarr-fb4b4b.netlify.app/">See More</a></h3>
+            </div>
+        </div>
+
+
     <div className="Proj1">
             <h1>TINKER</h1>
             <h6 style={{marginTop: "0", color: "white"}}>Dummy Login - USER: admin PASS: admin</h6>
